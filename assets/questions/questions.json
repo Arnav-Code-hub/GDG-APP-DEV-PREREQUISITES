@@ -1,0 +1,2879 @@
+{
+  "version": "2026-11-01.2",
+  "topics": [
+    {
+      "id": "shonen",
+      "category": "anime",
+      "name": "Shōnen"
+    },
+    {
+      "id": "ghibli",
+      "category": "anime",
+      "name": "Studio Ghibli"
+    },
+    {
+      "id": "anime-icons",
+      "category": "anime",
+      "name": "Anime icons"
+    },
+    {
+      "id": "cricket",
+      "category": "sports",
+      "name": "Cricket"
+    },
+    {
+      "id": "football",
+      "category": "sports",
+      "name": "Football"
+    },
+    {
+      "id": "olympic",
+      "category": "sports",
+      "name": "Olympic sports"
+    }
+  ],
+  "questions": [
+    {
+      "id": "anime-naruto-tailed-beast",
+      "category": "anime",
+      "prompt": "In Naruto, what is the name of the Nine-Tailed Fox sealed inside Naruto Uzumaki?",
+      "options": [
+        "Shukaku",
+        "Kurama",
+        "Gyūki",
+        "Matatabi"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Nine-Tails is Kurama. Shukaku is the One-Tail, Matatabi the Two-Tails and Gyūki the Eight-Tails.",
+      "topic": "shonen"
+    },
+    {
+      "id": "anime-one-piece-ship",
+      "category": "anime",
+      "prompt": "In One Piece, which ship do the Straw Hat Pirates sail after the Going Merry?",
+      "options": [
+        "Red Force",
+        "Moby Dick",
+        "Thousand Sunny",
+        "Oro Jackson"
+      ],
+      "correctIndex": 2,
+      "explanation": "Franky builds the Thousand Sunny for the crew after the Going Merry's farewell at Enies Lobby.",
+      "topic": "shonen"
+    },
+    {
+      "id": "anime-spirited-away-studio",
+      "category": "anime",
+      "prompt": "Which animation studio produced the 2001 film Spirited Away?",
+      "options": [
+        "Studio Ghibli",
+        "Madhouse",
+        "Kyoto Animation",
+        "Sunrise"
+      ],
+      "correctIndex": 0,
+      "explanation": "Spirited Away was produced by Studio Ghibli and directed by Hayao Miyazaki.",
+      "topic": "ghibli"
+    },
+    {
+      "id": "anime-death-note-alias",
+      "category": "anime",
+      "prompt": "In Death Note, what name does the public give to the unseen killer of criminals?",
+      "options": [
+        "Ryuk",
+        "L",
+        "Near",
+        "Kira"
+      ],
+      "correctIndex": 3,
+      "explanation": "The public calls the killer \"Kira\", from the Japanese pronunciation of \"killer\". L and Near are detectives; Ryuk is a Shinigami.",
+      "topic": "shonen"
+    },
+    {
+      "id": "anime-fmab-alphonse",
+      "category": "anime",
+      "prompt": "In Fullmetal Alchemist: Brotherhood, what did Alphonse Elric lose in the brothers' failed human transmutation?",
+      "options": [
+        "His left arm",
+        "His entire body",
+        "His right leg",
+        "His memories"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alphonse lost his whole body. Edward lost his left leg, then gave his right arm to bind Al's soul to a suit of armor.",
+      "topic": "shonen"
+    },
+    {
+      "id": "anime-aot-survey-corps",
+      "category": "anime",
+      "prompt": "In Attack on Titan, which military branch ventures beyond the walls to fight Titans?",
+      "options": [
+        "Garrison",
+        "Military Police",
+        "Training Corps",
+        "Survey Corps"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Survey Corps, also translated as the Scout Regiment, leads expeditions outside the walls.",
+      "topic": "shonen"
+    },
+    {
+      "id": "anime-dbz-saiyan-name",
+      "category": "anime",
+      "prompt": "In Dragon Ball, what is Goku's Saiyan birth name?",
+      "options": [
+        "Kakarot",
+        "Raditz",
+        "Bardock",
+        "Nappa"
+      ],
+      "correctIndex": 0,
+      "explanation": "Goku was born Kakarot. Raditz is his older brother and Bardock is his father.",
+      "topic": "shonen"
+    },
+    {
+      "id": "anime-mha-school",
+      "category": "anime",
+      "prompt": "In My Hero Academia, which hero school does Izuku Midoriya attend?",
+      "options": [
+        "Shiketsu High",
+        "Ketsubutsu Academy",
+        "U.A. High School",
+        "Isamu Academy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Izuku studies in Class 1-A at U.A. High School. Shiketsu is a rival hero school.",
+      "topic": "shonen"
+    },
+    {
+      "id": "anime-demon-slayer-sister",
+      "category": "anime",
+      "prompt": "In Demon Slayer: Kimetsu no Yaiba, what is the name of Tanjiro Kamado's sister who is turned into a demon?",
+      "options": [
+        "Kanao",
+        "Shinobu",
+        "Mitsuri",
+        "Nezuko"
+      ],
+      "correctIndex": 3,
+      "explanation": "Nezuko Kamado is turned into a demon, which sets Tanjiro on his path as a Demon Slayer.",
+      "topic": "shonen"
+    },
+    {
+      "id": "anime-hxh-father",
+      "category": "anime",
+      "prompt": "In Hunter x Hunter, who is Gon Freecss's father?",
+      "options": [
+        "Kite",
+        "Ging Freecss",
+        "Isaac Netero",
+        "Silva Zoldyck"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gon becomes a Hunter to find his father, Ging Freecss. Silva Zoldyck is Killua's father.",
+      "topic": "shonen"
+    },
+    {
+      "id": "sports-football-players",
+      "category": "sports",
+      "prompt": "In association football (soccer), how many players does each team have on the field at the start of a match?",
+      "options": [
+        "10",
+        "12",
+        "11",
+        "9"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Laws of the Game set eleven players per team, including the goalkeeper.",
+      "topic": "football"
+    },
+    {
+      "id": "sports-cricket-over",
+      "category": "sports",
+      "prompt": "In cricket, how many legal deliveries make up a standard over?",
+      "options": [
+        "6",
+        "5",
+        "8",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "A standard over has six legal deliveries. Wides and no-balls are bowled again.",
+      "topic": "cricket"
+    },
+    {
+      "id": "sports-world-cup-1930",
+      "category": "sports",
+      "prompt": "Which country won the first FIFA World Cup, held in 1930?",
+      "options": [
+        "Argentina",
+        "Brazil",
+        "Italy",
+        "Uruguay"
+      ],
+      "correctIndex": 3,
+      "explanation": "Host nation Uruguay beat Argentina 4–2 in the 1930 final in Montevideo.",
+      "topic": "football"
+    },
+    {
+      "id": "sports-tennis-love",
+      "category": "sports",
+      "prompt": "In tennis scoring, what is a score of zero called?",
+      "options": [
+        "Deuce",
+        "Love",
+        "Advantage",
+        "Let"
+      ],
+      "correctIndex": 1,
+      "explanation": "Zero is \"love\". Deuce is 40–40, and a let is a replayed point.",
+      "topic": "olympic"
+    },
+    {
+      "id": "sports-tokyo-2020",
+      "category": "sports",
+      "prompt": "Which city hosted the 2020 Summer Olympics, which took place in 2021?",
+      "options": [
+        "Paris",
+        "Tokyo",
+        "Beijing",
+        "Los Angeles"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Tokyo 2020 Games were postponed by a year because of the COVID-19 pandemic and kept their original name.",
+      "topic": "olympic"
+    },
+    {
+      "id": "sports-marathon-distance",
+      "category": "sports",
+      "prompt": "What is the official distance of a marathon?",
+      "options": [
+        "40 km",
+        "41.250 km",
+        "42.195 km",
+        "43.500 km"
+      ],
+      "correctIndex": 2,
+      "explanation": "The marathon has been standardised at 42.195 km (26.2 miles) since 1921.",
+      "topic": "olympic"
+    },
+    {
+      "id": "sports-golf-birdie",
+      "category": "sports",
+      "prompt": "In golf, what is the term for finishing a hole in one stroke under par?",
+      "options": [
+        "Birdie",
+        "Eagle",
+        "Bogey",
+        "Albatross"
+      ],
+      "correctIndex": 0,
+      "explanation": "One under par is a birdie. An eagle is two under, an albatross three under, and a bogey one over.",
+      "topic": "olympic"
+    },
+    {
+      "id": "sports-shuttlecock",
+      "category": "sports",
+      "prompt": "Which sport is played with a shuttlecock?",
+      "options": [
+        "Squash",
+        "Table tennis",
+        "Pickleball",
+        "Badminton"
+      ],
+      "correctIndex": 3,
+      "explanation": "Badminton players hit a feathered or synthetic shuttlecock over a net.",
+      "topic": "olympic"
+    },
+    {
+      "id": "sports-olympic-rings",
+      "category": "sports",
+      "prompt": "How many interlocking rings appear on the Olympic flag?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Olympic symbol has five interlocking rings in blue, yellow, black, green and red.",
+      "topic": "olympic"
+    },
+    {
+      "id": "sports-cricket-world-cup-2011",
+      "category": "sports",
+      "prompt": "Which team won the 2011 ICC Men's Cricket World Cup?",
+      "options": [
+        "Sri Lanka",
+        "Australia",
+        "India",
+        "Pakistan"
+      ],
+      "correctIndex": 2,
+      "explanation": "India beat Sri Lanka by six wickets in the final at Wankhede Stadium, Mumbai.",
+      "topic": "cricket"
+    },
+    {
+      "id": "anime-op-luffy-dream",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "In One Piece, what is Monkey D. Luffy's dream?",
+      "options": [
+        "To become the greatest swordsman",
+        "To become King of the Pirates",
+        "To draw a map of the world",
+        "To find the All Blue"
+      ],
+      "correctIndex": 1,
+      "explanation": "Luffy wants to be King of the Pirates. Zoro, Nami and Sanji chase the other three dreams."
+    },
+    {
+      "id": "anime-op-swordsman",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Who is the Straw Hat Pirates' first crewmate, a three-sword fighter?",
+      "options": [
+        "Sanji",
+        "Usopp",
+        "Tony Tony Chopper",
+        "Roronoa Zoro"
+      ],
+      "correctIndex": 3,
+      "explanation": "Zoro joins Luffy first and fights with three swords."
+    },
+    {
+      "id": "anime-op-hat",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "In One Piece, who gave Luffy his straw hat?",
+      "options": [
+        "Shanks",
+        "Monkey D. Garp",
+        "Portgas D. Ace",
+        "Gol D. Roger"
+      ],
+      "correctIndex": 0,
+      "explanation": "Shanks left the hat with young Luffy. It once belonged to Gol D. Roger."
+    },
+    {
+      "id": "anime-op-creator",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Who created One Piece?",
+      "options": [
+        "Yoshihiro Togashi",
+        "Hajime Isayama",
+        "Eiichiro Oda",
+        "Kohei Horikoshi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Eiichiro Oda began One Piece in Weekly Shōnen Jump in 1997."
+    },
+    {
+      "id": "anime-naruto-village",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Which ninja village is Naruto Uzumaki from?",
+      "options": [
+        "The Hidden Leaf Village",
+        "The Hidden Sand Village",
+        "The Hidden Mist Village",
+        "The Hidden Cloud Village"
+      ],
+      "correctIndex": 0,
+      "explanation": "Naruto is from Konohagakure, the Hidden Leaf Village."
+    },
+    {
+      "id": "anime-naruto-teacher",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Who leads Team 7, the squad of Naruto, Sasuke and Sakura?",
+      "options": [
+        "Jiraiya",
+        "Iruka Umino",
+        "Might Guy",
+        "Kakashi Hatake"
+      ],
+      "correctIndex": 3,
+      "explanation": "Kakashi Hatake is Team 7’s jōnin leader."
+    },
+    {
+      "id": "anime-naruto-sasuke-clan",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Which clan does Sasuke belong to?",
+      "options": [
+        "Uchiha",
+        "Hyūga",
+        "Senju",
+        "Nara"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sasuke is one of the last members of the Uchiha clan."
+    },
+    {
+      "id": "anime-naruto-food",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "What is Naruto's favourite food?",
+      "options": [
+        "Sushi",
+        "Ramen",
+        "Onigiri",
+        "Dango"
+      ],
+      "correctIndex": 1,
+      "explanation": "Naruto’s favourite is ramen, especially from Ichiraku Ramen."
+    },
+    {
+      "id": "anime-db-balls",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "How many Dragon Balls must be gathered to summon Shenron?",
+      "options": [
+        "7",
+        "5",
+        "9",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "Gathering all seven Dragon Balls summons the dragon Shenron."
+    },
+    {
+      "id": "anime-db-kamehameha",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "What is Goku's signature energy attack?",
+      "options": [
+        "Final Flash",
+        "Kamehameha",
+        "Special Beam Cannon",
+        "Galick Gun"
+      ],
+      "correctIndex": 1,
+      "explanation": "Goku learned the Kamehameha from Master Roshi. Final Flash and Galick Gun are Vegeta’s; Special Beam Cannon is Piccolo’s."
+    },
+    {
+      "id": "anime-db-creator",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Who created Dragon Ball?",
+      "options": [
+        "Akira Toriyama",
+        "Masashi Kishimoto",
+        "Eiichiro Oda",
+        "Tite Kubo"
+      ],
+      "correctIndex": 0,
+      "explanation": "Akira Toriyama created Dragon Ball in 1984."
+    },
+    {
+      "id": "anime-db-vegeta",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "What title does Vegeta proudly claim?",
+      "options": [
+        "King of the Saiyans",
+        "Saiyan General",
+        "Last of the Saiyans",
+        "Prince of all Saiyans"
+      ],
+      "correctIndex": 3,
+      "explanation": "Vegeta calls himself the Prince of all Saiyans."
+    },
+    {
+      "id": "anime-aot-eren",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Who is the main protagonist of Attack on Titan?",
+      "options": [
+        "Eren Yeager",
+        "Armin Arlert",
+        "Levi Ackerman",
+        "Reiner Braun"
+      ],
+      "correctIndex": 0,
+      "explanation": "The story follows Eren Yeager from the fall of Wall Maria onwards."
+    },
+    {
+      "id": "anime-dn-shinigami",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "In Death Note, which Shinigami drops the notebook Light Yagami finds?",
+      "options": [
+        "Rem",
+        "Gelus",
+        "Midora",
+        "Ryuk"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ryuk drops a Death Note into the human world out of boredom."
+    },
+    {
+      "id": "anime-ds-water",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Which Breathing style does Tanjiro first learn from Sakonji Urokodaki?",
+      "options": [
+        "Flame Breathing",
+        "Water Breathing",
+        "Thunder Breathing",
+        "Beast Breathing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Urokodaki trains Tanjiro in Water Breathing."
+    },
+    {
+      "id": "anime-ds-zenitsu",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Which Breathing style does Zenitsu Agatsuma use?",
+      "options": [
+        "Mist Breathing",
+        "Sound Breathing",
+        "Wind Breathing",
+        "Thunder Breathing"
+      ],
+      "correctIndex": 3,
+      "explanation": "Zenitsu uses Thunder Breathing, relying on its First Form."
+    },
+    {
+      "id": "anime-mha-quirk",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "What is the name of Izuku Midoriya's Quirk?",
+      "options": [
+        "One For All",
+        "All For One",
+        "Explosion",
+        "Half-Cold Half-Hot"
+      ],
+      "correctIndex": 0,
+      "explanation": "All Might passes One For All to Izuku. All For One belongs to the villain."
+    },
+    {
+      "id": "anime-mha-bakugo",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "What is Katsuki Bakugo's Quirk?",
+      "options": [
+        "Hardening",
+        "Engine",
+        "Zero Gravity",
+        "Explosion"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bakugo’s sweat is nitroglycerin-like, letting him trigger explosions."
+    },
+    {
+      "id": "anime-hxh-killua",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "In Hunter x Hunter, what is Killua Zoldyck’s family known for?",
+      "options": [
+        "Being assassins",
+        "Being Hunters",
+        "Being pirates",
+        "Being monks"
+      ],
+      "correctIndex": 0,
+      "explanation": "The Zoldycks are a famous family of assassins."
+    },
+    {
+      "id": "anime-hxh-gon-nen",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "What is Gon Freecss's Nen type?",
+      "options": [
+        "Transmuter",
+        "Conjurer",
+        "Enhancer",
+        "Specialist"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gon is an Enhancer. Killua is a Transmuter."
+    },
+    {
+      "id": "anime-fma-title",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "What is Edward Elric's State Alchemist title?",
+      "options": [
+        "Flame",
+        "Strong Arm",
+        "Fullmetal",
+        "Crimson"
+      ],
+      "correctIndex": 2,
+      "explanation": "Edward is the Fullmetal Alchemist. Flame is Roy Mustang, Strong Arm is Armstrong, Crimson is Kimblee."
+    },
+    {
+      "id": "anime-fma-law",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "What is the basic law of alchemy in Fullmetal Alchemist?",
+      "options": [
+        "Conservation of Souls",
+        "Perfect Balance",
+        "The Law of Stone",
+        "Equivalent Exchange"
+      ],
+      "correctIndex": 3,
+      "explanation": "To obtain something, something of equal value must be lost."
+    },
+    {
+      "id": "anime-jjk-sukuna",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "In Jujutsu Kaisen, whose finger does Yuji Itadori swallow?",
+      "options": [
+        "Mahito",
+        "Jogo",
+        "Satoru Gojo",
+        "Ryomen Sukuna"
+      ],
+      "correctIndex": 3,
+      "explanation": "Swallowing Sukuna’s finger makes Yuji the curse’s vessel."
+    },
+    {
+      "id": "anime-jjk-gojo",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Which blindfolded sorcerer teaches Yuji Itadori?",
+      "options": [
+        "Kento Nanami",
+        "Satoru Gojo",
+        "Masamichi Yaga",
+        "Suguru Geto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Satoru Gojo teaches first-year students at Tokyo Jujutsu High."
+    },
+    {
+      "id": "anime-bleach-rukia",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "In Bleach, who gives Ichigo Kurosaki his Soul Reaper powers at the start?",
+      "options": [
+        "Orihime Inoue",
+        "Rukia Kuchiki",
+        "Yoruichi Shihōin",
+        "Kisuke Urahara"
+      ],
+      "correctIndex": 1,
+      "explanation": "A wounded Rukia transfers her powers to Ichigo in the first chapter."
+    },
+    {
+      "id": "anime-haikyu-position",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "In Haikyu!!, which position does Shoyo Hinata play?",
+      "options": [
+        "Setter",
+        "Middle blocker",
+        "Libero",
+        "Opposite hitter"
+      ],
+      "correctIndex": 1,
+      "explanation": "Hinata plays middle blocker, often as a decoy."
+    },
+    {
+      "id": "anime-haikyu-school",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Which high school volleyball team does Hinata join?",
+      "options": [
+        "Aoba Johsai",
+        "Nekoma",
+        "Karasuno",
+        "Shiratorizawa"
+      ],
+      "correctIndex": 2,
+      "explanation": "Hinata joins Karasuno High’s volleyball club."
+    },
+    {
+      "id": "anime-slam-dunk",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "Who is the protagonist of Slam Dunk?",
+      "options": [
+        "Hanamichi Sakuragi",
+        "Kaede Rukawa",
+        "Takenori Akagi",
+        "Hisashi Mitsui"
+      ],
+      "correctIndex": 0,
+      "explanation": "Delinquent Hanamichi Sakuragi takes up basketball at Shohoku High."
+    },
+    {
+      "id": "anime-csm-pochita",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "What is the name of Denji's chainsaw devil companion?",
+      "options": [
+        "Meowy",
+        "Pochita",
+        "Beam",
+        "Kobeni"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pochita, the Chainsaw Devil, merges with Denji to save his life."
+    },
+    {
+      "id": "anime-spy-anya",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "In Spy x Family, what can Anya Forger do?",
+      "options": [
+        "Read minds",
+        "See the future",
+        "Stop time",
+        "Talk to animals"
+      ],
+      "correctIndex": 0,
+      "explanation": "Anya is a telepath. Bond, the dog, is the one who sees the future."
+    },
+    {
+      "id": "anime-kenshin-sword",
+      "category": "anime",
+      "topic": "shonen",
+      "prompt": "What kind of sword does Kenshin Himura carry to keep his vow not to kill?",
+      "options": [
+        "Twin short swords",
+        "A wooden sword",
+        "A broken sword",
+        "A reverse-blade sword"
+      ],
+      "correctIndex": 3,
+      "explanation": "His sakabatō has its edge on the inside curve."
+    },
+    {
+      "id": "anime-totoro-sisters",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "In My Neighbor Totoro, what are the two sisters called?",
+      "options": [
+        "Satsuki and Mei",
+        "Kiki and Ursula",
+        "Sophie and Lettie",
+        "Chihiro and Lin"
+      ],
+      "correctIndex": 0,
+      "explanation": "Satsuki and her younger sister Mei move to the countryside with their father."
+    },
+    {
+      "id": "anime-totoro-catbus",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Which creature works as a bus in My Neighbor Totoro?",
+      "options": [
+        "A giant dog",
+        "A giant owl",
+        "A giant fox",
+        "A giant cat"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Catbus carries the girls through the countryside."
+    },
+    {
+      "id": "anime-sa-parents",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "In Spirited Away, what are Chihiro's parents turned into?",
+      "options": [
+        "Frogs",
+        "Crows",
+        "Stone statues",
+        "Pigs"
+      ],
+      "correctIndex": 3,
+      "explanation": "They eat food meant for the spirits and turn into pigs."
+    },
+    {
+      "id": "anime-sa-yubaba",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Which witch runs the bathhouse in Spirited Away?",
+      "options": [
+        "Zeniba",
+        "Yubaba",
+        "Kamaji",
+        "Lin"
+      ],
+      "correctIndex": 1,
+      "explanation": "Yubaba runs the bathhouse; Zeniba is her twin sister."
+    },
+    {
+      "id": "anime-sa-sen",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "What name does Yubaba give Chihiro?",
+      "options": [
+        "Lin",
+        "Yu",
+        "Sen",
+        "Chi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Yubaba takes most of her name, leaving “Sen”."
+    },
+    {
+      "id": "anime-sa-haku",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "In Spirited Away, Haku is really the spirit of what?",
+      "options": [
+        "A mountain",
+        "A river",
+        "A forest",
+        "The moon"
+      ],
+      "correctIndex": 1,
+      "explanation": "Haku is the spirit of the Kohaku River."
+    },
+    {
+      "id": "anime-sa-noface",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "What is the masked spirit that follows Chihiro called?",
+      "options": [
+        "Kamaji",
+        "Bō",
+        "No-Face",
+        "Radish Spirit"
+      ],
+      "correctIndex": 2,
+      "explanation": "No-Face, or Kaonashi, follows Chihiro into the bathhouse."
+    },
+    {
+      "id": "anime-sa-oscar",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Which Academy Award did Spirited Away win?",
+      "options": [
+        "Best Picture",
+        "Best Original Score",
+        "Best Visual Effects",
+        "Best Animated Feature"
+      ],
+      "correctIndex": 3,
+      "explanation": "It won Best Animated Feature at the 2003 Academy Awards."
+    },
+    {
+      "id": "anime-kiki-cat",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "What is the name of Kiki's black cat?",
+      "options": [
+        "Jiji",
+        "Luna",
+        "Kuro",
+        "Toto"
+      ],
+      "correctIndex": 0,
+      "explanation": "Jiji travels with Kiki in Kiki’s Delivery Service."
+    },
+    {
+      "id": "anime-kiki-age",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "How old is Kiki when she leaves home for her year of witch training?",
+      "options": [
+        "10",
+        "12",
+        "13",
+        "16"
+      ],
+      "correctIndex": 2,
+      "explanation": "Witches in the film leave home at 13 to train on their own."
+    },
+    {
+      "id": "anime-mononoke-yakul",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "In Princess Mononoke, what is the name of Ashitaka’s red elk?",
+      "options": [
+        "Yakul",
+        "Moro",
+        "Okkoto",
+        "Kodama"
+      ],
+      "correctIndex": 0,
+      "explanation": "Yakul carries Ashitaka. Moro is the wolf god, Okkoto the boar god."
+    },
+    {
+      "id": "anime-mononoke-san",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Who raised San in Princess Mononoke?",
+      "options": [
+        "Lady Eboshi",
+        "The boar clan",
+        "The wolf god Moro",
+        "Jigo"
+      ],
+      "correctIndex": 2,
+      "explanation": "San was raised by Moro and calls herself a wolf."
+    },
+    {
+      "id": "anime-howl-curse",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "In Howl's Moving Castle, who turns Sophie into an old woman?",
+      "options": [
+        "Madame Suliman",
+        "Calcifer",
+        "The Witch of the Waste",
+        "Turnip Head"
+      ],
+      "correctIndex": 2,
+      "explanation": "The Witch of the Waste curses Sophie."
+    },
+    {
+      "id": "anime-howl-calcifer",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "What is the fire demon that powers Howl's castle called?",
+      "options": [
+        "Markl",
+        "Heen",
+        "Calcifer",
+        "Turnip Head"
+      ],
+      "correctIndex": 2,
+      "explanation": "Calcifer is bound to Howl by a contract."
+    },
+    {
+      "id": "anime-laputa",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "What is the floating castle called in Castle in the Sky?",
+      "options": [
+        "Pejite",
+        "Tedis",
+        "Gondoa",
+        "Laputa"
+      ],
+      "correctIndex": 3,
+      "explanation": "Sheeta and Pazu search for the floating city of Laputa."
+    },
+    {
+      "id": "anime-ghibli-founding",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Studio Ghibli was founded in 1985 after the success of which film?",
+      "options": [
+        "Akira",
+        "Castle in the Sky",
+        "Nausicaä of the Valley of the Wind",
+        "The Castle of Cagliostro"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nausicaä’s success led to Ghibli’s founding; Castle in the Sky was its first film."
+    },
+    {
+      "id": "anime-ghibli-takahata",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Which director co-founded Studio Ghibli with Hayao Miyazaki?",
+      "options": [
+        "Mamoru Hosoda",
+        "Satoshi Kon",
+        "Isao Takahata",
+        "Makoto Shinkai"
+      ],
+      "correctIndex": 2,
+      "explanation": "Miyazaki, Takahata and producer Toshio Suzuki led the studio."
+    },
+    {
+      "id": "anime-fireflies-director",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Who directed Grave of the Fireflies?",
+      "options": [
+        "Hayao Miyazaki",
+        "Gorō Miyazaki",
+        "Isao Takahata",
+        "Hiromasa Yonebayashi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Isao Takahata directed it in 1988."
+    },
+    {
+      "id": "anime-ponyo",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "What is Ponyo before she becomes human?",
+      "options": [
+        "A frog",
+        "A bird",
+        "A cat",
+        "A fish"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ponyo is a goldfish-like fish girl who wants to be human."
+    },
+    {
+      "id": "anime-ponyo-boy",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "What is the boy called who befriends Ponyo?",
+      "options": [
+        "Taro",
+        "Sōsuke",
+        "Kenji",
+        "Haku"
+      ],
+      "correctIndex": 1,
+      "explanation": "Five-year-old Sōsuke finds Ponyo in a jar."
+    },
+    {
+      "id": "anime-wind-rises",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "The Wind Rises is based on the life of which aircraft designer?",
+      "options": [
+        "Soichiro Honda",
+        "Osamu Tezuka",
+        "Jiro Horikoshi",
+        "Kiichiro Toyoda"
+      ],
+      "correctIndex": 2,
+      "explanation": "Jiro Horikoshi designed the Mitsubishi A6M Zero."
+    },
+    {
+      "id": "anime-porco",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "What is the title character of Porco Rosso?",
+      "options": [
+        "A cat",
+        "A fox",
+        "A frog",
+        "A pig"
+      ],
+      "correctIndex": 3,
+      "explanation": "Porco is a WWI fighter pilot cursed to look like a pig."
+    },
+    {
+      "id": "anime-porco-sea",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Over which sea does Porco Rosso fly?",
+      "options": [
+        "The Baltic Sea",
+        "The Caribbean Sea",
+        "The North Sea",
+        "The Adriatic Sea"
+      ],
+      "correctIndex": 3,
+      "explanation": "The film is set around the Adriatic coast of Italy."
+    },
+    {
+      "id": "anime-arrietty",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "What is Arrietty in The Secret World of Arrietty?",
+      "options": [
+        "A fairy",
+        "A Borrower",
+        "A witch",
+        "A forest spirit"
+      ],
+      "correctIndex": 1,
+      "explanation": "Arrietty is one of the tiny Borrowers who live under houses."
+    },
+    {
+      "id": "anime-cat-returns",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Which Ghibli film brings back the Baron from Whisper of the Heart?",
+      "options": [
+        "Only Yesterday",
+        "Pom Poko",
+        "From Up on Poppy Hill",
+        "The Cat Returns"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Baron returns in The Cat Returns (2002)."
+    },
+    {
+      "id": "anime-ghibli-museum",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Where is the Ghibli Museum?",
+      "options": [
+        "Kyoto",
+        "Mitaka, Tokyo",
+        "Osaka",
+        "Sapporo"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Ghibli Museum opened in Mitaka, western Tokyo, in 2001."
+    },
+    {
+      "id": "anime-boy-heron",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Which 2023 Hayao Miyazaki film won the Academy Award for Best Animated Feature?",
+      "options": [
+        "The Wind Rises",
+        "Earwig and the Witch",
+        "When Marnie Was There",
+        "The Boy and the Heron"
+      ],
+      "correctIndex": 3,
+      "explanation": "It gave Miyazaki his second Oscar, after Spirited Away."
+    },
+    {
+      "id": "anime-ghibli-logo",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Which character appears in Studio Ghibli's logo?",
+      "options": [
+        "Jiji",
+        "No-Face",
+        "Calcifer",
+        "Totoro"
+      ],
+      "correctIndex": 3,
+      "explanation": "Totoro has been the studio’s emblem since the late 1980s."
+    },
+    {
+      "id": "anime-hisaishi",
+      "category": "anime",
+      "topic": "ghibli",
+      "prompt": "Who composed the music for most of Hayao Miyazaki’s films?",
+      "options": [
+        "Yoko Kanno",
+        "Joe Hisaishi",
+        "Hiroyuki Sawano",
+        "Ryuichi Sakamoto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Joe Hisaishi has scored Miyazaki’s films since Nausicaä."
+    },
+    {
+      "id": "anime-eva-unit",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "In Neon Genesis Evangelion, which Eva does Shinji Ikari pilot?",
+      "options": [
+        "Unit-00",
+        "Unit-01",
+        "Unit-02",
+        "Unit-03"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shinji pilots Unit-01. Rei pilots Unit-00 and Asuka Unit-02."
+    },
+    {
+      "id": "anime-eva-studio",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Which studio made the original Neon Genesis Evangelion TV series?",
+      "options": [
+        "Sunrise",
+        "Gainax",
+        "Madhouse",
+        "Bones"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gainax produced the 1995 series."
+    },
+    {
+      "id": "anime-bebop-ship",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What is the crew’s spaceship called in Cowboy Bebop?",
+      "options": [
+        "Swordfish II",
+        "The Bebop",
+        "Red Tail",
+        "Hammerhead"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Bebop is the ship; Swordfish II is Spike’s fighter."
+    },
+    {
+      "id": "anime-bebop-spike",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Who is the bounty-hunter protagonist of Cowboy Bebop?",
+      "options": [
+        "Jet Black",
+        "Spike Spiegel",
+        "Vicious",
+        "Edward"
+      ],
+      "correctIndex": 1,
+      "explanation": "Spike Spiegel is a former syndicate member turned bounty hunter."
+    },
+    {
+      "id": "anime-sailor-moon",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What is Sailor Moon's civilian name?",
+      "options": [
+        "Ami Mizuno",
+        "Rei Hino",
+        "Minako Aino",
+        "Usagi Tsukino"
+      ],
+      "correctIndex": 3,
+      "explanation": "Usagi Tsukino transforms into Sailor Moon."
+    },
+    {
+      "id": "anime-sailor-luna",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What is Usagi's talking black cat called?",
+      "options": [
+        "Luna",
+        "Artemis",
+        "Jiji",
+        "Kyubey"
+      ],
+      "correctIndex": 0,
+      "explanation": "Luna guides Usagi. Artemis is Minako’s white cat."
+    },
+    {
+      "id": "anime-your-name",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Who directed the 2016 film Your Name?",
+      "options": [
+        "Makoto Shinkai",
+        "Mamoru Hosoda",
+        "Hayao Miyazaki",
+        "Naoko Yamada"
+      ],
+      "correctIndex": 0,
+      "explanation": "Makoto Shinkai wrote and directed Your Name."
+    },
+    {
+      "id": "anime-your-name-swap",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "In Your Name, what do Mitsuha and Taki swap?",
+      "options": [
+        "Memories",
+        "Voices",
+        "Bodies",
+        "Shadows"
+      ],
+      "correctIndex": 2,
+      "explanation": "They wake up in each other’s bodies."
+    },
+    {
+      "id": "anime-akira-city",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "In which city is Akira (1988) set?",
+      "options": [
+        "Neo-Osaka",
+        "New Kyoto",
+        "Neo-Tokyo",
+        "Tokyo-3"
+      ],
+      "correctIndex": 2,
+      "explanation": "Akira takes place in Neo-Tokyo. Tokyo-3 is from Evangelion."
+    },
+    {
+      "id": "anime-akira-bike",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What is Kaneda's famous vehicle in Akira?",
+      "options": [
+        "A hoverboard",
+        "A mech suit",
+        "A red motorcycle",
+        "A sports car"
+      ],
+      "correctIndex": 2,
+      "explanation": "Kaneda’s red bike is one of anime’s most famous images."
+    },
+    {
+      "id": "anime-gits-major",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Who is the protagonist of Ghost in the Shell?",
+      "options": [
+        "Motoko Kusanagi",
+        "Misato Katsuragi",
+        "Faye Valentine",
+        "Revy"
+      ],
+      "correctIndex": 0,
+      "explanation": "Major Motoko Kusanagi leads Public Security Section 9."
+    },
+    {
+      "id": "anime-tezuka",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Who created Astro Boy?",
+      "options": [
+        "Go Nagai",
+        "Leiji Matsumoto",
+        "Shotaro Ishinomori",
+        "Osamu Tezuka"
+      ],
+      "correctIndex": 3,
+      "explanation": "Osamu Tezuka, often called the “God of Manga”, created Astro Boy."
+    },
+    {
+      "id": "anime-pikachu-type",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What type of Pokémon is Pikachu?",
+      "options": [
+        "Fire",
+        "Normal",
+        "Electric",
+        "Psychic"
+      ],
+      "correctIndex": 2,
+      "explanation": "Pikachu is an Electric-type Pokémon."
+    },
+    {
+      "id": "anime-ash-surname",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What is Ash's surname in the English Pokémon anime?",
+      "options": [
+        "Ketchum",
+        "Oak",
+        "Waterflower",
+        "Stone"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ash Ketchum is a pun on “catch ’em”."
+    },
+    {
+      "id": "anime-gundam-studio",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Which studio created the original Mobile Suit Gundam (1979)?",
+      "options": [
+        "Sunrise",
+        "Toei Animation",
+        "Gainax",
+        "Production I.G"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sunrise created Mobile Suit Gundam."
+    },
+    {
+      "id": "anime-gundam-char",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What is Char Aznable's nickname in Mobile Suit Gundam?",
+      "options": [
+        "The White Devil",
+        "The Black Knight",
+        "The Red Comet",
+        "The Blue Destiny"
+      ],
+      "correctIndex": 2,
+      "explanation": "Char is the Red Comet. “White Devil” is the enemy’s name for Amuro’s Gundam."
+    },
+    {
+      "id": "anime-steins-gate",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "In Steins;Gate, which device first sends messages to the past?",
+      "options": [
+        "A mobile phone tower",
+        "A satellite",
+        "A wristwatch",
+        "A modified microwave"
+      ],
+      "correctIndex": 3,
+      "explanation": "Okabe’s “Phone Microwave (name subject to change)” sends D-Mails."
+    },
+    {
+      "id": "anime-violet-studio",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Which studio animated Violet Evergarden?",
+      "options": [
+        "Kyoto Animation",
+        "ufotable",
+        "MAPPA",
+        "Wit Studio"
+      ],
+      "correctIndex": 0,
+      "explanation": "Kyoto Animation produced Violet Evergarden."
+    },
+    {
+      "id": "anime-ds-studio",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Which studio animates the Demon Slayer TV anime?",
+      "options": [
+        "MAPPA",
+        "Bones",
+        "A-1 Pictures",
+        "ufotable"
+      ],
+      "correctIndex": 3,
+      "explanation": "ufotable animates Demon Slayer."
+    },
+    {
+      "id": "anime-jjk-studio",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Which studio animates the Jujutsu Kaisen TV anime?",
+      "options": [
+        "ufotable",
+        "Bones",
+        "Studio Pierrot",
+        "MAPPA"
+      ],
+      "correctIndex": 3,
+      "explanation": "MAPPA animates Jujutsu Kaisen."
+    },
+    {
+      "id": "anime-fmab-studio",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Which studio made Fullmetal Alchemist: Brotherhood?",
+      "options": [
+        "Studio Pierrot",
+        "Madhouse",
+        "Toei Animation",
+        "Bones"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bones produced both FMA anime series."
+    },
+    {
+      "id": "anime-op-studio",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Which studio animates the One Piece TV anime?",
+      "options": [
+        "Studio Pierrot",
+        "Bones",
+        "Sunrise",
+        "Toei Animation"
+      ],
+      "correctIndex": 3,
+      "explanation": "Toei Animation has animated One Piece since 1999."
+    },
+    {
+      "id": "anime-senpai",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What does the Japanese word “senpai” mean?",
+      "options": [
+        "A senior or upperclassman",
+        "A teacher",
+        "A rival",
+        "A younger sibling"
+      ],
+      "correctIndex": 0,
+      "explanation": "A senpai is someone senior to you at school or work."
+    },
+    {
+      "id": "anime-isekai",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What is an “isekai” story about?",
+      "options": [
+        "Being transported to another world",
+        "High-school sports",
+        "Giant robots",
+        "Cooking contests"
+      ],
+      "correctIndex": 0,
+      "explanation": "Isekai means “different world”."
+    },
+    {
+      "id": "anime-mecha",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What does the anime genre “mecha” focus on?",
+      "options": [
+        "Giant robots",
+        "Magical girls",
+        "Detective work",
+        "Romance"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mecha stories centre on piloted robots."
+    },
+    {
+      "id": "anime-doraemon-century",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Which century does Doraemon come from?",
+      "options": [
+        "The 22nd century",
+        "The 21st century",
+        "The 25th century",
+        "The 30th century"
+      ],
+      "correctIndex": 0,
+      "explanation": "Doraemon travels back from the 22nd century to help Nobita."
+    },
+    {
+      "id": "anime-doraemon-fear",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What is Doraemon afraid of?",
+      "options": [
+        "Dogs",
+        "Water",
+        "Thunder",
+        "Mice"
+      ],
+      "correctIndex": 3,
+      "explanation": "A robot mouse chewed off his ears."
+    },
+    {
+      "id": "anime-conan",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "What alias does Shinichi Kudo use after he is shrunk?",
+      "options": [
+        "Kaito Kid",
+        "Heiji Hattori",
+        "Conan Edogawa",
+        "Kogoro Mouri"
+      ],
+      "correctIndex": 2,
+      "explanation": "He takes the name Conan Edogawa, after Arthur Conan Doyle and Edogawa Ranpo."
+    },
+    {
+      "id": "anime-clamp",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Which manga group created Cardcaptor Sakura?",
+      "options": [
+        "Gainax",
+        "Studio Pierrot",
+        "CLAMP",
+        "Shaft"
+      ],
+      "correctIndex": 2,
+      "explanation": "CLAMP is an all-woman manga artist group."
+    },
+    {
+      "id": "anime-lupin",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Lupin III is the grandson of which fictional thief?",
+      "options": [
+        "Robin Hood",
+        "Zorro",
+        "Raffles",
+        "Arsène Lupin"
+      ],
+      "correctIndex": 3,
+      "explanation": "Lupin III is the grandson of Maurice Leblanc’s Arsène Lupin."
+    },
+    {
+      "id": "anime-cagliostro",
+      "category": "anime",
+      "topic": "anime-icons",
+      "prompt": "Hayao Miyazaki's first feature film as director starred which character?",
+      "options": [
+        "Astro Boy",
+        "Lupin III",
+        "Doraemon",
+        "Speed Racer"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Castle of Cagliostro (1979) was Miyazaki’s feature debut."
+    },
+    {
+      "id": "sports-cricket-players",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "How many players does each cricket team have on the field?",
+      "options": [
+        "11",
+        "9",
+        "12",
+        "15"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each side fields eleven players."
+    },
+    {
+      "id": "sports-cricket-stumps",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "How many stumps make up one wicket?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "correctIndex": 3,
+      "explanation": "A wicket has three stumps topped by two bails."
+    },
+    {
+      "id": "sports-cricket-bails",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "How many bails sit on top of a wicket?",
+      "options": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "correctIndex": 2,
+      "explanation": "Two bails rest on the three stumps."
+    },
+    {
+      "id": "sports-cricket-pitch",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "How long is a cricket pitch between the wickets?",
+      "options": [
+        "20 yards",
+        "22 yards",
+        "24 yards",
+        "18 yards"
+      ],
+      "correctIndex": 1,
+      "explanation": "The pitch is 22 yards, about 20.12 metres."
+    },
+    {
+      "id": "sports-cricket-six",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "How many runs for a ball that clears the boundary without bouncing?",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "6"
+      ],
+      "correctIndex": 3,
+      "explanation": "Clearing the boundary on the full scores six; bouncing first scores four."
+    },
+    {
+      "id": "sports-cricket-lbw",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "What does LBW stand for?",
+      "options": [
+        "Long ball wide",
+        "Lost ball warning",
+        "Leg before wicket",
+        "Left behind wicket"
+      ],
+      "correctIndex": 2,
+      "explanation": "A batter can be out LBW if the ball would have hit the stumps."
+    },
+    {
+      "id": "sports-cricket-duck",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "What is it called when a batter is out for zero?",
+      "options": [
+        "An egg",
+        "A duck",
+        "A blank",
+        "A nil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Out without scoring is “a duck”."
+    },
+    {
+      "id": "sports-cricket-wc-1975",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Which team won the first men’s Cricket World Cup in 1975?",
+      "options": [
+        "Australia",
+        "England",
+        "West Indies",
+        "India"
+      ],
+      "correctIndex": 2,
+      "explanation": "West Indies beat Australia in the final at Lord’s."
+    },
+    {
+      "id": "sports-cricket-wc-1983",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "In which year did India first win the men’s Cricket World Cup?",
+      "options": [
+        "1987",
+        "1992",
+        "1983",
+        "2011"
+      ],
+      "correctIndex": 2,
+      "explanation": "India beat West Indies at Lord’s in 1983."
+    },
+    {
+      "id": "sports-cricket-kapil",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Who captained India to the 1983 World Cup title?",
+      "options": [
+        "Sunil Gavaskar",
+        "Kapil Dev",
+        "Mohinder Amarnath",
+        "Ravi Shastri"
+      ],
+      "correctIndex": 1,
+      "explanation": "Kapil Dev lifted the trophy at Lord’s."
+    },
+    {
+      "id": "sports-cricket-odi-200",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Who scored the first double century in men’s ODI cricket, in 2010?",
+      "options": [
+        "Virender Sehwag",
+        "Rohit Sharma",
+        "Chris Gayle",
+        "Sachin Tendulkar"
+      ],
+      "correctIndex": 3,
+      "explanation": "Tendulkar made 200* against South Africa in Gwalior."
+    },
+    {
+      "id": "sports-cricket-t20-overs",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "How many overs does each side bat in a T20 match?",
+      "options": [
+        "20",
+        "25",
+        "15",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "T20 means twenty overs per side."
+    },
+    {
+      "id": "sports-cricket-odi-overs",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "How many overs does each side bat in a standard ODI?",
+      "options": [
+        "40",
+        "60",
+        "45",
+        "50"
+      ],
+      "correctIndex": 3,
+      "explanation": "One Day Internationals are 50 overs per side."
+    },
+    {
+      "id": "sports-cricket-t20wc-2007",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Who won the first ICC Men’s T20 World Cup in 2007?",
+      "options": [
+        "India",
+        "Pakistan",
+        "Australia",
+        "Sri Lanka"
+      ],
+      "correctIndex": 0,
+      "explanation": "India beat Pakistan in the final in Johannesburg."
+    },
+    {
+      "id": "sports-cricket-ashes",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Which two teams contest the Ashes?",
+      "options": [
+        "India and Pakistan",
+        "Australia and New Zealand",
+        "England and South Africa",
+        "England and Australia"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Ashes began in 1882 between England and Australia."
+    },
+    {
+      "id": "sports-cricket-ipl-start",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "In which year was the first IPL season played?",
+      "options": [
+        "2007",
+        "2008",
+        "2010",
+        "2005"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Indian Premier League began in 2008."
+    },
+    {
+      "id": "sports-cricket-ipl-2008",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Which team won the first IPL title in 2008?",
+      "options": [
+        "Chennai Super Kings",
+        "Rajasthan Royals",
+        "Deccan Chargers",
+        "Mumbai Indians"
+      ],
+      "correctIndex": 1,
+      "explanation": "Shane Warne’s Rajasthan Royals won the first season."
+    },
+    {
+      "id": "sports-cricket-hattrick",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "What is a hat-trick in cricket?",
+      "options": [
+        "Three sixes in an over",
+        "Three catches by one fielder",
+        "Three wickets in three consecutive balls by one bowler",
+        "Three centuries in a series"
+      ],
+      "correctIndex": 2,
+      "explanation": "A bowler takes a hat-trick with wickets on three consecutive deliveries."
+    },
+    {
+      "id": "sports-cricket-lara-400",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Who scored 400 not out against England in 2004?",
+      "options": [
+        "Matthew Hayden",
+        "Brian Lara",
+        "Chris Gayle",
+        "Virender Sehwag"
+      ],
+      "correctIndex": 1,
+      "explanation": "Brian Lara made 400* in Antigua."
+    },
+    {
+      "id": "sports-cricket-maiden",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "What is a maiden over?",
+      "options": [
+        "The first over of a match",
+        "An over with a wicket in it",
+        "An over with no runs conceded by the bowler",
+        "An over bowled by a debutant"
+      ],
+      "correctIndex": 2,
+      "explanation": "A maiden is an over in which the bowler concedes no runs."
+    },
+    {
+      "id": "sports-cricket-murali",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "How many Test wickets did Muttiah Muralitharan take in his career?",
+      "options": [
+        "708",
+        "619",
+        "800",
+        "563"
+      ],
+      "correctIndex": 2,
+      "explanation": "Muralitharan finished with exactly 800 Test wickets in 2010."
+    },
+    {
+      "id": "sports-cricket-warne-ball",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Which batter did Shane Warne dismiss with the 1993 “Ball of the Century”?",
+      "options": [
+        "Graham Gooch",
+        "Mike Gatting",
+        "Alec Stewart",
+        "Michael Atherton"
+      ],
+      "correctIndex": 1,
+      "explanation": "Warne’s first Ashes ball spun past Gatting to hit off stump."
+    },
+    {
+      "id": "sports-cricket-bradman",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "What was Don Bradman's Test batting average?",
+      "options": [
+        "89.78",
+        "100.00",
+        "99.94",
+        "95.14"
+      ],
+      "correctIndex": 2,
+      "explanation": "Bradman needed four runs in his last innings for 100 but was out for a duck."
+    },
+    {
+      "id": "sports-cricket-day-night",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Which teams played the first day-night Test, in Adelaide in 2015?",
+      "options": [
+        "India and England",
+        "Australia and India",
+        "England and South Africa",
+        "Australia and New Zealand"
+      ],
+      "correctIndex": 3,
+      "explanation": "The first pink-ball Test was Australia v New Zealand."
+    },
+    {
+      "id": "sports-cricket-dhoni-six",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Who hit the winning six in the 2011 World Cup final?",
+      "options": [
+        "MS Dhoni",
+        "Yuvraj Singh",
+        "Gautam Gambhir",
+        "Virat Kohli"
+      ],
+      "correctIndex": 0,
+      "explanation": "Dhoni finished the match with a six off Nuwan Kulasekara."
+    },
+    {
+      "id": "sports-cricket-drs",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "What does DRS stand for?",
+      "options": [
+        "Decision Review System",
+        "Delivery Replay Software",
+        "Direct Run-out Scan",
+        "Digital Referee Signal"
+      ],
+      "correctIndex": 0,
+      "explanation": "DRS lets teams ask the TV umpire to review a decision."
+    },
+    {
+      "id": "sports-cricket-googly",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "What is a googly?",
+      "options": [
+        "A very fast bouncer",
+        "A ball that hits the batter’s helmet",
+        "A leg-spinner’s ball that turns the opposite way",
+        "An underarm delivery"
+      ],
+      "correctIndex": 2,
+      "explanation": "The googly looks like a leg-break but turns the other way."
+    },
+    {
+      "id": "sports-cricket-icc",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "What does ICC stand for in cricket?",
+      "options": [
+        "Indian Cricket Club",
+        "International Cricket Committee",
+        "International Cricket Confederation",
+        "International Cricket Council"
+      ],
+      "correctIndex": 3,
+      "explanation": "The International Cricket Council governs world cricket."
+    },
+    {
+      "id": "sports-cricket-super-over",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "What is a Super Over used for?",
+      "options": [
+        "Breaking a tie in a limited-overs match",
+        "Bowling at double speed",
+        "Replacing a rained-off over",
+        "Choosing who bats first"
+      ],
+      "correctIndex": 0,
+      "explanation": "Each side faces one extra over to settle a tie."
+    },
+    {
+      "id": "sports-cricket-belinda",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Who scored the first double century in ODI cricket, in 1997?",
+      "options": [
+        "Mithali Raj",
+        "Amelia Kerr",
+        "Belinda Clark",
+        "Meg Lanning"
+      ],
+      "correctIndex": 2,
+      "explanation": "Australia’s Belinda Clark scored 229* against Denmark."
+    },
+    {
+      "id": "sports-cricket-lords",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "Which ground is known as the “Home of Cricket”?",
+      "options": [
+        "Eden Gardens",
+        "Lord's",
+        "The Oval",
+        "MCG"
+      ],
+      "correctIndex": 1,
+      "explanation": "Lord’s in London is the Home of Cricket."
+    },
+    {
+      "id": "sports-cricket-free-hit",
+      "category": "sports",
+      "topic": "cricket",
+      "prompt": "In limited-overs cricket, what follows a front-foot no-ball?",
+      "options": [
+        "A free run",
+        "A penalty over",
+        "A super over",
+        "A free hit"
+      ],
+      "correctIndex": 3,
+      "explanation": "The next ball is a free hit: the batter can’t be out bowled or caught."
+    },
+    {
+      "id": "sports-football-wc-cycle",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "How often is the men’s FIFA World Cup held?",
+      "options": [
+        "Every 4 years",
+        "Every 2 years",
+        "Every 3 years",
+        "Every 5 years"
+      ],
+      "correctIndex": 0,
+      "explanation": "The World Cup is held every four years."
+    },
+    {
+      "id": "sports-football-wc-2022",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Who won the 2022 FIFA World Cup?",
+      "options": [
+        "France",
+        "Argentina",
+        "Croatia",
+        "Brazil"
+      ],
+      "correctIndex": 1,
+      "explanation": "Argentina beat France on penalties after a 3–3 draw."
+    },
+    {
+      "id": "sports-football-wc-2022-host",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Which country hosted the 2022 FIFA World Cup?",
+      "options": [
+        "Russia",
+        "United States",
+        "Japan",
+        "Qatar"
+      ],
+      "correctIndex": 3,
+      "explanation": "Qatar hosted in November and December 2022."
+    },
+    {
+      "id": "sports-football-brazil-titles",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Which country won the World Cup in 1958, 1962, 1970, 1994 and 2002?",
+      "options": [
+        "Italy",
+        "Germany",
+        "Argentina",
+        "Brazil"
+      ],
+      "correctIndex": 3,
+      "explanation": "Those are Brazil’s five titles up to 2002."
+    },
+    {
+      "id": "sports-football-penalty-spot",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "How far is the penalty mark from the goal line?",
+      "options": [
+        "11 metres",
+        "9.15 metres",
+        "16.5 metres",
+        "5.5 metres"
+      ],
+      "correctIndex": 0,
+      "explanation": "The penalty mark is 11 m (12 yards) from goal."
+    },
+    {
+      "id": "sports-football-second-yellow",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "What does a second yellow card in the same match mean?",
+      "options": [
+        "A penalty kick",
+        "A one-match warning",
+        "Nothing more",
+        "The player is sent off"
+      ],
+      "correctIndex": 3,
+      "explanation": "Two cautions mean a red card."
+    },
+    {
+      "id": "sports-football-offside-throw",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "A player cannot be offside when receiving the ball directly from which restart?",
+      "options": [
+        "A free kick",
+        "A pass in open play",
+        "A header",
+        "A throw-in"
+      ],
+      "correctIndex": 3,
+      "explanation": "There is no offside from a throw-in, goal kick or corner kick."
+    },
+    {
+      "id": "sports-football-duration",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "How long is a regulation football match, excluding added time?",
+      "options": [
+        "80 minutes",
+        "90 minutes",
+        "100 minutes",
+        "120 minutes"
+      ],
+      "correctIndex": 1,
+      "explanation": "Two halves of 45 minutes."
+    },
+    {
+      "id": "sports-football-hand-of-god",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Who scored the “Hand of God” goal at the 1986 World Cup?",
+      "options": [
+        "Pelé",
+        "Diego Maradona",
+        "Zinedine Zidane",
+        "Gary Lineker"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maradona punched the ball in against England."
+    },
+    {
+      "id": "sports-football-ballon-2024",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Who won the men's Ballon d'Or in 2024?",
+      "options": [
+        "Rodri",
+        "Vinícius Júnior",
+        "Jude Bellingham",
+        "Kylian Mbappé"
+      ],
+      "correctIndex": 0,
+      "explanation": "Manchester City midfielder Rodri won in 2024."
+    },
+    {
+      "id": "sports-football-pl-founded",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "In which year was the English Premier League founded?",
+      "options": [
+        "1888",
+        "1979",
+        "2000",
+        "1992"
+      ],
+      "correctIndex": 3,
+      "explanation": "The Premier League’s first season was 1992–93."
+    },
+    {
+      "id": "sports-football-clean-sheet",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "What does keeping a “clean sheet” mean?",
+      "options": [
+        "Getting no cards",
+        "Having no injuries",
+        "Winning every tackle",
+        "Not conceding a goal"
+      ],
+      "correctIndex": 3,
+      "explanation": "A clean sheet means the team conceded no goals."
+    },
+    {
+      "id": "sports-football-hattrick",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "What is a hat-trick in football?",
+      "options": [
+        "Three goals by one player in a match",
+        "Three wins in a row",
+        "Three assists by one player",
+        "Three goals in three minutes"
+      ],
+      "correctIndex": 0,
+      "explanation": "One player scoring three goals in a single match."
+    },
+    {
+      "id": "sports-football-pele",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Which country did Pelé play for?",
+      "options": [
+        "Argentina",
+        "Portugal",
+        "Uruguay",
+        "Brazil"
+      ],
+      "correctIndex": 3,
+      "explanation": "Pelé won three World Cups with Brazil."
+    },
+    {
+      "id": "sports-football-ronaldo",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Which national team does Cristiano Ronaldo play for?",
+      "options": [
+        "Spain",
+        "Brazil",
+        "Portugal",
+        "Italy"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ronaldo captained Portugal to Euro 2016."
+    },
+    {
+      "id": "sports-football-euro-2024",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Who won UEFA Euro 2024?",
+      "options": [
+        "England",
+        "France",
+        "Germany",
+        "Spain"
+      ],
+      "correctIndex": 3,
+      "explanation": "Spain beat England 2–1 in Berlin."
+    },
+    {
+      "id": "sports-football-euro-2020",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Who won UEFA Euro 2020, played in 2021?",
+      "options": [
+        "England",
+        "Denmark",
+        "Italy",
+        "Spain"
+      ],
+      "correctIndex": 2,
+      "explanation": "Italy beat England on penalties at Wembley."
+    },
+    {
+      "id": "sports-football-isl",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "In which year did the Indian Super League play its first season?",
+      "options": [
+        "2010",
+        "2017",
+        "2014",
+        "2008"
+      ],
+      "correctIndex": 2,
+      "explanation": "The ISL kicked off in October 2014."
+    },
+    {
+      "id": "sports-football-blue-tigers",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "What is the nickname of India’s men’s national football team?",
+      "options": [
+        "The Blue Tigers",
+        "The Men in Blue",
+        "The Royal Bengals",
+        "The Indian Lions"
+      ],
+      "correctIndex": 0,
+      "explanation": "“Men in Blue” is the cricket team; football’s are the Blue Tigers."
+    },
+    {
+      "id": "sports-football-chhetri",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Which national team did Sunil Chhetri captain?",
+      "options": [
+        "Nepal",
+        "Bangladesh",
+        "India",
+        "Sri Lanka"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sunil Chhetri has scored more than 90 goals for India."
+    },
+    {
+      "id": "sports-football-wwc-2023",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Who won the 2023 FIFA Women’s World Cup?",
+      "options": [
+        "England",
+        "Sweden",
+        "Spain",
+        "United States"
+      ],
+      "correctIndex": 2,
+      "explanation": "Spain beat England 1–0 in Sydney."
+    },
+    {
+      "id": "sports-football-clasico",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Which two clubs play “El Clásico”?",
+      "options": [
+        "Real Madrid and Barcelona",
+        "Atlético Madrid and Sevilla",
+        "Barcelona and Espanyol",
+        "Real Madrid and Atlético Madrid"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Clásico is Real Madrid v Barcelona."
+    },
+    {
+      "id": "sports-football-var",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "What does VAR stand for?",
+      "options": [
+        "Virtual Assessment Review",
+        "Video Assistant Referee",
+        "Video Action Replay",
+        "Visual Area Ruling"
+      ],
+      "correctIndex": 1,
+      "explanation": "VAR helps the referee review key incidents."
+    },
+    {
+      "id": "sports-football-goal-width",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "How wide is a full-size football goal?",
+      "options": [
+        "6.5 metres",
+        "7.32 metres",
+        "8.5 metres",
+        "5 metres"
+      ],
+      "correctIndex": 1,
+      "explanation": "The goal is 7.32 m (8 yards) wide and 2.44 m high."
+    },
+    {
+      "id": "sports-football-free-kick-wall",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "How far must opponents stand from the ball at a free kick?",
+      "options": [
+        "9.15 metres",
+        "5 metres",
+        "11 metres",
+        "7 metres"
+      ],
+      "correctIndex": 0,
+      "explanation": "Opponents must be at least 9.15 m (10 yards) away."
+    },
+    {
+      "id": "sports-football-red-devils",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Which English club is nicknamed “The Red Devils”?",
+      "options": [
+        "Manchester United",
+        "Liverpool",
+        "Arsenal",
+        "Nottingham Forest"
+      ],
+      "correctIndex": 0,
+      "explanation": "Manchester United are the Red Devils."
+    },
+    {
+      "id": "sports-football-wc-2014-host",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Which country hosted the 2014 FIFA World Cup?",
+      "options": [
+        "Brazil",
+        "Germany",
+        "South Africa",
+        "Russia"
+      ],
+      "correctIndex": 0,
+      "explanation": "Brazil hosted in 2014."
+    },
+    {
+      "id": "sports-football-wc-2014",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Who won the 2014 FIFA World Cup?",
+      "options": [
+        "Germany",
+        "Argentina",
+        "Netherlands",
+        "Brazil"
+      ],
+      "correctIndex": 0,
+      "explanation": "Germany beat Argentina 1–0 after extra time."
+    },
+    {
+      "id": "sports-football-wc-2010",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Who won the 2010 FIFA World Cup?",
+      "options": [
+        "Netherlands",
+        "Germany",
+        "Italy",
+        "Spain"
+      ],
+      "correctIndex": 3,
+      "explanation": "Spain beat the Netherlands 1–0 in Johannesburg."
+    },
+    {
+      "id": "sports-football-messi-club",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "With which club did Lionel Messi make his senior debut?",
+      "options": [
+        "Paris Saint-Germain",
+        "Barcelona",
+        "Inter Miami",
+        "River Plate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Messi debuted for Barcelona’s first team in 2004."
+    },
+    {
+      "id": "sports-football-golden-boot",
+      "category": "sports",
+      "topic": "football",
+      "prompt": "Who receives the Golden Boot at a World Cup?",
+      "options": [
+        "The best goalkeeper",
+        "The top goalscorer",
+        "The best young player",
+        "The captain of the winners"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Golden Boot goes to the leading scorer."
+    },
+    {
+      "id": "sports-olympics-1896",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "Which city hosted the first modern Olympic Games in 1896?",
+      "options": [
+        "Paris",
+        "Athens",
+        "London",
+        "Rome"
+      ],
+      "correctIndex": 1,
+      "explanation": "The first modern Games were held in Athens."
+    },
+    {
+      "id": "sports-olympics-cycle",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "How often are the Summer Olympics usually held?",
+      "options": [
+        "Every 2 years",
+        "Every 4 years",
+        "Every 3 years",
+        "Every 5 years"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Summer Games follow a four-year cycle."
+    },
+    {
+      "id": "sports-olympics-2024",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "Which city hosted the 2024 Summer Olympics?",
+      "options": [
+        "Los Angeles",
+        "Tokyo",
+        "Brisbane",
+        "Paris"
+      ],
+      "correctIndex": 3,
+      "explanation": "Paris hosted in 2024."
+    },
+    {
+      "id": "sports-olympics-2028",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "Which city will host the 2028 Summer Olympics?",
+      "options": [
+        "Brisbane",
+        "Paris",
+        "Madrid",
+        "Los Angeles"
+      ],
+      "correctIndex": 3,
+      "explanation": "Los Angeles was awarded the 2028 Games."
+    },
+    {
+      "id": "sports-olympics-neeraj",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "In which event did Neeraj Chopra win gold at Tokyo 2020?",
+      "options": [
+        "Shot put",
+        "Javelin throw",
+        "Long jump",
+        "Discus throw"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chopra’s 87.58 m throw won India’s first Olympic athletics gold."
+    },
+    {
+      "id": "sports-olympics-bindra",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "In which sport did Abhinav Bindra win India's first individual Olympic gold?",
+      "options": [
+        "Archery",
+        "Boxing",
+        "Wrestling",
+        "Shooting"
+      ],
+      "correctIndex": 3,
+      "explanation": "Bindra won the 10 m air rifle at Beijing 2008."
+    },
+    {
+      "id": "sports-olympics-bolt",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "What was Usain Bolt's time in his 100 m world record run at Berlin 2009?",
+      "options": [
+        "9.63 seconds",
+        "9.58 seconds",
+        "9.69 seconds",
+        "9.72 seconds"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bolt ran 9.58 s at the 2009 World Championships."
+    },
+    {
+      "id": "sports-olympics-phelps",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "How many gold medals did Michael Phelps win at Beijing 2008?",
+      "options": [
+        "6",
+        "7",
+        "9",
+        "8"
+      ],
+      "correctIndex": 3,
+      "explanation": "Phelps won eight golds at one Games."
+    },
+    {
+      "id": "sports-olympics-flame",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "Where is the Olympic flame lit before each Games?",
+      "options": [
+        "Athens, Greece",
+        "Lausanne, Switzerland",
+        "Olympia, Greece",
+        "The host city"
+      ],
+      "correctIndex": 2,
+      "explanation": "The flame is lit by the sun’s rays at Olympia."
+    },
+    {
+      "id": "sports-olympics-decathlon",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "How many events are in the decathlon?",
+      "options": [
+        "10",
+        "7",
+        "8",
+        "12"
+      ],
+      "correctIndex": 0,
+      "explanation": "“Deca” means ten."
+    },
+    {
+      "id": "sports-olympics-heptathlon",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "How many events are in the heptathlon?",
+      "options": [
+        "7",
+        "5",
+        "8",
+        "10"
+      ],
+      "correctIndex": 0,
+      "explanation": "“Hepta” means seven."
+    },
+    {
+      "id": "sports-olympics-clay-slam",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "Which tennis Grand Slam is played on clay?",
+      "options": [
+        "French Open",
+        "Wimbledon",
+        "US Open",
+        "Australian Open"
+      ],
+      "correctIndex": 0,
+      "explanation": "Roland-Garros is the clay-court Slam."
+    },
+    {
+      "id": "sports-olympics-wimbledon",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "On which surface is Wimbledon played?",
+      "options": [
+        "Clay",
+        "Grass",
+        "Hard court",
+        "Carpet"
+      ],
+      "correctIndex": 1,
+      "explanation": "Wimbledon is the grass-court Slam."
+    },
+    {
+      "id": "sports-olympics-slam-count",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "How many Grand Slam tournaments are in a tennis season?",
+      "options": [
+        "3",
+        "5",
+        "4",
+        "6"
+      ],
+      "correctIndex": 2,
+      "explanation": "Australian Open, French Open, Wimbledon and US Open."
+    },
+    {
+      "id": "sports-olympics-sindhu",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "Which medal did P. V. Sindhu win at Rio 2016?",
+      "options": [
+        "Silver",
+        "Gold",
+        "Bronze",
+        "No medal"
+      ],
+      "correctIndex": 0,
+      "explanation": "Sindhu won silver in women’s singles badminton."
+    },
+    {
+      "id": "sports-olympics-bogey",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "In golf, what is one stroke over par on a hole called?",
+      "options": [
+        "A bogey",
+        "A birdie",
+        "An eagle",
+        "A par"
+      ],
+      "correctIndex": 0,
+      "explanation": "One over par is a bogey."
+    },
+    {
+      "id": "sports-olympics-ace",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "In golf, what is another name for a hole in one?",
+      "options": [
+        "A bogey",
+        "A birdie",
+        "A mulligan",
+        "An ace"
+      ],
+      "correctIndex": 3,
+      "explanation": "A hole in one is also called an ace. A mulligan is an unofficial do-over."
+    },
+    {
+      "id": "sports-olympics-hockey-gold",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "How many Olympic gold medals had India’s men’s hockey team won by the end of 2024?",
+      "options": [
+        "8",
+        "6",
+        "10",
+        "4"
+      ],
+      "correctIndex": 0,
+      "explanation": "India won eight golds, the last at Moscow 1980."
+    },
+    {
+      "id": "sports-olympics-dhyan",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "Which sport did Major Dhyan Chand play?",
+      "options": [
+        "Football",
+        "Cricket",
+        "Wrestling",
+        "Field hockey"
+      ],
+      "correctIndex": 3,
+      "explanation": "India’s National Sports Day, 29 August, is his birthday."
+    },
+    {
+      "id": "sports-olympics-free-throw",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "How many points is a basketball free throw worth?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "0.5"
+      ],
+      "correctIndex": 1,
+      "explanation": "Each successful free throw scores one point."
+    },
+    {
+      "id": "sports-olympics-volleyball",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "How many players per team are on court in indoor volleyball?",
+      "options": [
+        "5",
+        "7",
+        "4",
+        "6"
+      ],
+      "correctIndex": 3,
+      "explanation": "Six players per side; beach volleyball uses two."
+    },
+    {
+      "id": "sports-olympics-tko",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "In boxing, what does TKO stand for?",
+      "options": [
+        "Total knockout",
+        "Timed knockout",
+        "Title knockout",
+        "Technical knockout"
+      ],
+      "correctIndex": 3,
+      "explanation": "The referee stops the bout because a boxer cannot continue safely."
+    },
+    {
+      "id": "sports-olympics-tt-points",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "To how many points is a game of table tennis played?",
+      "options": [
+        "15",
+        "11",
+        "21",
+        "7"
+      ],
+      "correctIndex": 1,
+      "explanation": "Games go to 11, winning by two."
+    },
+    {
+      "id": "sports-olympics-medley",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "What is the stroke order in an individual medley swim?",
+      "options": [
+        "Backstroke, breaststroke, butterfly, freestyle",
+        "Freestyle, butterfly, backstroke, breaststroke",
+        "Breaststroke, butterfly, freestyle, backstroke",
+        "Butterfly, backstroke, breaststroke, freestyle"
+      ],
+      "correctIndex": 3,
+      "explanation": "Individual medley order: fly, back, breast, free."
+    },
+    {
+      "id": "sports-olympics-nadia",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "Who scored the first perfect 10 in Olympic gymnastics, in 1976?",
+      "options": [
+        "Olga Korbut",
+        "Simone Biles",
+        "Mary Lou Retton",
+        "Nadia Comăneci"
+      ],
+      "correctIndex": 3,
+      "explanation": "Comăneci scored 10.0 on uneven bars in Montreal."
+    },
+    {
+      "id": "sports-olympics-mirabai",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "In which sport did Mirabai Chanu win silver at Tokyo 2020?",
+      "options": [
+        "Wrestling",
+        "Boxing",
+        "Weightlifting",
+        "Shooting"
+      ],
+      "correctIndex": 2,
+      "explanation": "She won silver in the women’s 49 kg weightlifting."
+    },
+    {
+      "id": "sports-olympics-archery",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "What colour is the centre of an Olympic archery target?",
+      "options": [
+        "Red",
+        "Gold",
+        "Blue",
+        "Black"
+      ],
+      "correctIndex": 1,
+      "explanation": "The centre rings are gold (yellow)."
+    },
+    {
+      "id": "sports-olympics-rio",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "Which city hosted the 2016 Summer Olympics?",
+      "options": [
+        "São Paulo",
+        "Rio de Janeiro",
+        "Buenos Aires",
+        "Lima"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rio de Janeiro hosted the first South American Games."
+    },
+    {
+      "id": "sports-olympics-winter-2026",
+      "category": "sports",
+      "topic": "olympic",
+      "prompt": "Where were the 2026 Winter Olympics held?",
+      "options": [
+        "Beijing, China",
+        "Sapporo, Japan",
+        "Salt Lake City, USA",
+        "Milan and Cortina d’Ampezzo, Italy"
+      ],
+      "correctIndex": 3,
+      "explanation": "Milano Cortina 2026 took place in February 2026."
+    }
+  ]
+}

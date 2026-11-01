@@ -1,0 +1,112 @@
+rules_version = '2';
+
+// QuizOrbit security rules.
+//
+// Attempts: each signed-in player can read and create only their own
+// completed attempts at users/{uid}/attempts/{attemptId}.
+// - No public access, no cross-account access, no deletes.
+// - A record cannot be changed after it is written. Repeating the exact same
+//   write is allowed, so a retried save (same attempt ID) is harmless.
+// - Practice attempts use a random 20-character ID. A daily challenge uses
+//   "daily-<category>-<yyyymmdd>", so a player can store only one completed
+//   daily attempt per category per day.
+// - Records keep question IDs and chosen indices (-1 means the timer ran
+//   out) so the player can review them. Element types are checked by the
+//   app's model, since rules cannot loop over list items.
+// - Scores are computed on the client; these rules check shape and bounds,
+//   not honesty. They are not suitable for competitive rankings.
+//
+// Question bank: questionBanks/current is readable by anyone and written
+// only with admin credentials (tool/publish_questions.mjs), which bypass
+// these rules.
+//
+// Reports: a signed-in player can file one report per question. Nobody can
+// read, edit or delete reports from the app.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /users/{uid}/attempts/{attemptId} {
+      allow read: if isOwner(uid);
+      allow create: if isOwner(uid) && validAttempt(attemptId);
+      allow update: if isOwner(uid) && request.resource.data == resource.data;
+      allow delete: if false;
+    }
+
+    match /questionBanks/{bankId} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /questionReports/{reportId} {
+      // One report per player per question: the ID is fixed and a report
+      // can be created once, never updated.
+      allow create: if validReport()
+        && reportId == request.auth.uid + '_' + request.resource.data.questionId;
+      allow read, update, delete: if false;
+    }
+
+    // Everything else is closed.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+
+  function isOwner(uid) {
+    return request.auth != null && request.auth.uid == uid;
+  }
+
+  function validAttempt(attemptId) {
+    let data = request.resource.data;
+    let keys = ['categoryId', 'topicId', 'mode', 'timed', 'score', 'total',
+                'questionSetVersion', 'completedAt', 'questionIds',
+                'selectedIndices'];
+    return data.keys().hasOnly(keys)
+      && data.keys().hasAll(keys)
+      && validAttemptId(attemptId, data)
+      && data.categoryId in ['anime', 'sports']
+      && (data.topicId == null
+          || (data.topicId is string && data.topicId.size() > 0
+              && data.topicId.size() <= 40))
+      && data.timed is bool
+      && data.total == 10
+      && data.score is int
+      && data.score >= 0
+      && data.score <= data.total
+      && data.questionSetVersion is string
+      && data.questionSetVersion.size() > 0
+      && data.questionSetVersion.size() <= 64
+      && data.completedAt is timestamp
+      && data.questionIds is list
+      && data.questionIds.size() == data.total
+      && data.selectedIndices is list
+      && data.selectedIndices.size() == data.total
+      && data.completedAt <= request.time + duration.value(5, 'm')
+      && data.completedAt >= request.time - duration.value(1, 'd');
+  }
+
+  function validAttemptId(attemptId, data) {
+    return (data.mode == 'practice' && attemptId.matches('^[A-Za-z0-9]{20}$'))
+      || (data.mode == 'daily'
+          && attemptId == 'daily-' + data.categoryId + '-'
+             + attemptId.split('-')[2]
+          && attemptId.matches('^daily-(anime|sports)-[0-9]{8}$'));
+  }
+
+  function validReport() {
+    let data = request.resource.data;
+    return request.auth != null
+      && data.keys().hasOnly(['uid', 'questionId', 'bankVersion', 'reason',
+                              'note', 'createdAt'])
+      && data.keys().hasAll(['uid', 'questionId', 'bankVersion', 'reason',
+                             'note', 'createdAt'])
+      && data.uid == request.auth.uid
+      && data.questionId is string
+      && data.questionId.size() > 0
+      && data.questionId.size() <= 100
+      && data.bankVersion is string
+      && data.bankVersion.size() <= 64
+      && data.reason in ['wrong-answer', 'unclear', 'typo', 'other']
+      && data.note is string
+      && data.note.size() <= 300
+      && data.createdAt == request.time;
+  }
+}

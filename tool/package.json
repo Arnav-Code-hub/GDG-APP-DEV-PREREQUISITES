@@ -1,0 +1,12 @@
+{
+  "name": "quizorbit-tools",
+  "private": true,
+  "description": "Developer tools for QuizOrbit. Not part of the app.",
+  "type": "module",
+  "scripts": {
+    "publish": "node publish_questions.mjs"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.0"
+  }
+}

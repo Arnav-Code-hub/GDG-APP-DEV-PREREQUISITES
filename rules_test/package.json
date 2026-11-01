@@ -1,0 +1,13 @@
+{
+  "name": "quizorbit-rules-test",
+  "private": true,
+  "description": "Firestore security-rule tests for QuizOrbit. Runs only against the local emulator.",
+  "type": "module",
+  "scripts": {
+    "test": "firebase emulators:exec --only firestore --project demo-quizorbit --config ../firebase.json \"node --test\""
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^5.0.2",
+    "firebase": "^12.19.0"
+  }
+}

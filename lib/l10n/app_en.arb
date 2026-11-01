@@ -1,0 +1,429 @@
+{
+  "@@locale": "en",
+  "appTitle": "QuizOrbit",
+  "categoryAnime": "Anime",
+  "categorySports": "Sports",
+  "heroLineOne": "KNOW IT?",
+  "heroLineTwo": "PROVE IT.",
+  "heroSemantic": "Know it? Prove it.",
+  "heroBody": "Anime worlds. Sporting moments.\nA quiz for the fans who know.",
+  "chooseCategoryAction": "Choose your category",
+  "chooseCategoryHeading": "Choose your category.",
+  "categorySectionNote": "Over 100 questions in each.",
+  "animeDescription": "Characters, worlds, and stories you never forget.",
+  "sportsDescription": "Rules, rivalries, and moments that made the game.",
+  "animeDetail": "Characters, worlds, and the stories that stay with you.",
+  "sportsDetail": "Rules, rivalries, and the moments that define the game.",
+  "exploreCategory": "Explore {category}",
+  "@exploreCategory": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "categoryGroupLabel": "{category} category",
+  "@categoryGroupLabel": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "footerTagline": "A quiz for curious fans.",
+  "ringPause": "Pause",
+  "ringPlay": "Play",
+  "ringPauseTooltip": "Pause ring animation",
+  "ringResumeTooltip": "Resume ring animation",
+  "dailyHeading": "Today’s challenge",
+  "dailyBody": "The same 10 questions for every player today. One go each.",
+  "dailyPlay": "Play today’s {category}",
+  "@dailyPlay": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyDone": "Done today: {score}/{total}",
+  "@dailyDone": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "dailySignInNote": "Sign in to save your daily result and keep your streak.",
+  "closeCategory": "Close category details",
+  "inFocus": "{category}, in focus.",
+  "@inFocus": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "howItWorks": "How it works",
+  "questionsCount": "{count} questions",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "choicesPerQuestion": "{count} choices per question",
+  "@choicesPerQuestion": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "onePointRule": "One point for every correct answer.",
+  "topicLabel": "Topic",
+  "allTopics": "All topics",
+  "timedMode": "Timed mode",
+  "timedModeHint": "{seconds} seconds per question",
+  "@timedModeHint": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "startQuiz": "Start {category} quiz",
+  "@startQuiz": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "backToCategories": "Back to categories",
+  "quizTitle": "{category} quiz",
+  "@quizTitle": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyQuizTitle": "Daily {category}",
+  "@dailyQuizTitle": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "leaveQuiz": "Leave quiz",
+  "questionProgress": "Question {current} of {total}",
+  "@questionProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "progressLabel": "Quiz progress",
+  "progressValue": "{completed} of {total} questions completed",
+  "@progressValue": {
+    "placeholders": {
+      "completed": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "questionSemantic": "Question {number} of {total}. {prompt}",
+  "@questionSemantic": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "prompt": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseAnswer": "Choose an answer",
+  "nextQuestion": "Next question",
+  "secondsLeft": "{seconds}s",
+  "@secondsLeft": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "secondsLeftSemantic": "{seconds} seconds left",
+  "@secondsLeftSemantic": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "leaveTitle": "Leave this quiz?",
+  "leaveBody": "Your answers so far will be discarded. Only finished quizzes count.",
+  "keepPlaying": "Keep playing",
+  "discardAndLeave": "Discard and leave",
+  "loadingQuestions": "Loading questions…",
+  "noQuestions": "No questions",
+  "somethingWrong": "Something went wrong",
+  "quizEmpty": "This quiz is empty.",
+  "questionsDidntLoad": "Questions didn’t load.",
+  "quizEmptyBody": "There are no questions for this category yet. Try another category.",
+  "questionsErrorBody": "The question set couldn’t be read. Try again, or choose another category.",
+  "tryAgain": "Try again",
+  "reportQuestion": "Report this question",
+  "reportTitle": "Report a problem",
+  "reportWrong": "The answer is wrong",
+  "reportUnclear": "The question is unclear",
+  "reportTypo": "Spelling or typo",
+  "reportOther": "Something else",
+  "reportNote": "Anything to add? (optional)",
+  "reportSend": "Send report",
+  "reportSending": "Sending…",
+  "reportSent": "Thanks. We’ll check this question.",
+  "reportFailed": "Couldn’t send the report. Try again.",
+  "reportSignIn": "Sign in to report a question.",
+  "reportUnavailable": "Reporting isn’t connected in this build.",
+  "finalScore": "{category} final score",
+  "@finalScore": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "verdictPerfect": "Proved it.",
+  "verdictGreat": "You know it.",
+  "verdictOkay": "Getting there.",
+  "verdictLow": "Room to grow.",
+  "correctChip": "Correct",
+  "missedChip": "Missed",
+  "scoreSemantic": "Score: {score} out of {total}",
+  "@scoreSemantic": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "notSaved": "Not saved",
+  "unavailableBody": "Account saving isn’t connected in this build yet. Your score is shown here only.",
+  "signedOutBody": "You weren’t signed in when you finished. Sign in with Google to save this result to your account.",
+  "saving": "Saving…",
+  "savingBody": "Saving this result to your account.",
+  "saved": "Saved",
+  "savedBody": "This result is saved to your account. You can review it any time.",
+  "couldntSave": "Couldn’t save",
+  "failedBody": "Your score is safe on this screen. Check your connection and try again.",
+  "retrySave": "Retry save",
+  "signInToSave": "Sign in to save",
+  "seeAllAttempts": "See all your attempts",
+  "chooseAnotherCategory": "Choose another category",
+  "yourAnswers": "Your answers",
+  "shareResult": "Share result",
+  "shareText": "I scored {score}/{total} in {category} on QuizOrbit. Know it? Prove it.",
+  "@shareText": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "shareFailed": "Couldn’t share the result.",
+  "dailyComeBack": "That was today’s challenge. A new one is ready tomorrow.",
+  "playPractice": "Play a practice quiz",
+  "questionNumber": "Question {number}",
+  "@questionNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "noLongerInQuiz": "This question is no longer in the quiz.",
+  "correctOption": "Correct: {option}",
+  "@correctOption": {
+    "placeholders": {
+      "option": {
+        "type": "String"
+      }
+    }
+  },
+  "youChose": "You chose {option}",
+  "@youChose": {
+    "placeholders": {
+      "option": {
+        "type": "String"
+      }
+    }
+  },
+  "answerOption": "Answer: {option}",
+  "@answerOption": {
+    "placeholders": {
+      "option": {
+        "type": "String"
+      }
+    }
+  },
+  "timeRanOut": "Time ran out",
+  "yourAttempts": "Your attempts",
+  "filterAll": "All",
+  "historyDidntLoad": "History didn’t load.",
+  "checkConnection": "Check your connection and try again.",
+  "nothingHere": "Nothing here yet.",
+  "nothingHereBody": "Finish a quiz while signed in and it will appear here.",
+  "noCategoryAttempts": "No {category} attempts yet.",
+  "@noCategoryAttempts": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "reviewTitle": "{category} review",
+  "@reviewTitle": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "attemptSemantic": "{category}, {score} out of {total}, {date}. Review answers",
+  "@attemptSemantic": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      },
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "back": "Back",
+  "loadingAttempts": "Loading your attempts",
+  "dailyBadge": "Daily",
+  "timedBadge": "Timed",
+  "yourStats": "Your stats",
+  "streakDays": "{count, plural, =1{1 day} other{{count} days}}",
+  "@streakDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "currentStreak": "Current streak",
+  "bestStreak": "Best streak",
+  "quizzesPlayed": "Quizzes played",
+  "overallAccuracy": "Accuracy",
+  "bestScore": "Best score",
+  "averageScore": "Average",
+  "recentScores": "Recent scores",
+  "recentScoresSemantic": "Last {count} scores, oldest first: {scores}",
+  "@recentScoresSemantic": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "scores": {
+        "type": "String"
+      }
+    }
+  },
+  "statsEmpty": "Finish a quiz while signed in to start your stats.",
+  "statsBasis": "Based on your last {count} saved attempts.",
+  "@statsBasis": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "signInWithGoogle": "Sign in with Google",
+  "signingIn": "Signing in…",
+  "signOut": "Sign out",
+  "accountMenu": "Account: {name}",
+  "@accountMenu": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "signedInFallback": "Signed in",
+  "signInNetworkError": "No connection. Check your network and try again.",
+  "signInPopupBlocked": "Your browser blocked the sign-in window.",
+  "signInFailed": "Google sign-in didn’t work. Please try again.",
+  "settings": "Settings",
+  "soundEffects": "Sound effects",
+  "vibration": "Vibration",
+  "dailyReminder": "Daily reminder",
+  "dailyReminderHint": "A notification once a day when a new challenge is ready.",
+  "remindersDenied": "Notifications are off for QuizOrbit. Turn them on in your phone’s settings.",
+  "language": "Language",
+  "deviceLanguage": "Device language",
+  "english": "English",
+  "hindi": "हिन्दी",
+  "languageNote": "Questions are in English.",
+  "showIntro": "Show the intro again",
+  "licenses": "Open-source licences",
+  "reminderTitle": "Today’s QuizOrbit challenge is ready",
+  "reminderBody": "Ten questions, one go. Know it? Prove it.",
+  "introSkip": "Skip",
+  "introNext": "Next",
+  "introStart": "Get started",
+  "introOneTitle": "Know it? Prove it.",
+  "introOneBody": "Pick Anime or Sports, choose a topic, and answer ten questions drawn from over a hundred.",
+  "introTwoTitle": "Come back daily.",
+  "introTwoBody": "A new challenge every day. Sign in to save results, build a streak and review every answer.",
+  "introPage": "Page {page} of {total}",
+  "@introPage": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "previousQuestion": "Previous question",
+  "submitQuiz": "Submit quiz",
+  "submitTitle": "Submit your answers?",
+  "submitBody": "You can’t change them after this. Your score and the right answers come next.",
+  "reviewAnswers": "Review answers",
+  "alreadyPlayed": "Already played today",
+  "alreadyPlayedBody": "Today’s challenge was already saved, probably from another device. The first result is the one that counts."
+}
